@@ -1,0 +1,24 @@
+{
+  "name": "@superbiger/vuepress-plugin-tabs",
+  "version": "1.0.0",
+  "description": "Vuepress plugin - Tabs Container for Vuepress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superbiger/vuepress-plugin-tabs.git"
+  },
+  "keywords": [
+    "vuepress-plugin",
+    "tabs",
+    "component"
+  ],
+  "author": "superbiger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superbiger/vuepress-plugin-tabs/issues"
+  },
+  "homepage": "https://github.com/superbiger/vuepress-plugin-tabs#readme"
+}
