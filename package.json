@@ -4,7 +4,9 @@
   "description": "Vuepress plugin - Tabs Container for Vuepress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/superbiger/vuepress-plugin-tabs/issues"
   },
-  "homepage": "https://github.com/superbiger/vuepress-plugin-tabs#readme"
+  "homepage": "https://github.com/superbiger/vuepress-plugin-tabs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.0",
+    "release-it": "^10.3.1",
+    "vuepress": "^1.0.0-alpha.44"
+  }
 }
