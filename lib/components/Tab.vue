@@ -1,5 +1,7 @@
 <template>
-    
+<div class="superbiger-tab">
+    <slot></slot>
+</div>
 </template>
 
 <script>
