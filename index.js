@@ -1,6 +1,6 @@
 const path = require('path')
 
-module.exports = {
+module.exports = (options, context) => ({
     enhanceAppFiles: [
         path.resolve(__dirname, './lib/client.js')
     ],
@@ -8,6 +8,7 @@ module.exports = {
     chainMarkdown (config) {
         config
             .plugin('@superbiger/tabs')
-            .use(require('./lib/markdownItPlugin'))
+            .use(require('./lib/markdownItPlugin'), [options])
+            .end()
     }
-}
+})

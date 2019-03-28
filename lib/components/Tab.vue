@@ -1,7 +1,7 @@
 <template>
-<div class="superbiger-tab">
+<section class="tabs-panel">
     <slot></slot>
-</div>
+</section>
 </template>
 
 <script>
@@ -9,4 +9,8 @@ export default {
     
 }
 </script>
+
+<style scoped>
+
+</style>
 
