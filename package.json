@@ -1,8 +1,9 @@
 {
-  "name": "@superbiger/vuepress-plugin-tabs",
-  "version": "1.0.0",
+  "name": "vuepress-plugin-element-tabs",
+  "version": "0.0.1",
   "description": "Vuepress plugin - Tabs Container for Vuepress",
-  "main": "index.js",
+  "author": "superbiger",
+  "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
@@ -18,8 +19,6 @@
     "tabs",
     "component"
   ],
-  "author": "superbiger",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/superbiger/vuepress-plugin-tabs/issues"
   },
