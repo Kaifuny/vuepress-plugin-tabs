@@ -9,9 +9,7 @@ module.exports = {
         lastUpdated: 'Last Updated'
     },
     plugins: [
-        ['../../index', {
-            theme: 'default'
-        }],
+        ['../../index'],
         [
             '@vuepress/pwa', {
                 serviceWorker: true,

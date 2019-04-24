@@ -1,6 +1,6 @@
 <script>
   import TabBar from './tab-bar';
-  import { addResizeListener, removeResizeListener } from '..utils/resize-event';
+  import { addResizeListener, removeResizeListener } from '../utils/resize-event';
   function noop() {}
   const firstUpperCase = str => {
     return str.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase());
@@ -181,8 +181,8 @@
       } = this;
       const scrollBtn = scrollable
         ? [
-          <span class={['el-tabs__nav-prev', scrollable.prev ? '' : 'is-disabled']} on-click={scrollPrev}><i class="el-icon-arrow-left"></i></span>,
-          <span class={['el-tabs__nav-next', scrollable.next ? '' : 'is-disabled']} on-click={scrollNext}><i class="el-icon-arrow-right"></i></span>
+          <span class={['el-tabs__nav-prev', scrollable.prev ? '' : 'is-disabled']} on-click={scrollPrev}>{'<'}</span>,
+          <span class={['el-tabs__nav-next', scrollable.next ? '' : 'is-disabled']} on-click={scrollNext}>{'>'}</span>
         ] : null;
       const tabs = this._l(panes, (pane, index) => {
         let tabName = pane.name || pane.index || index;
