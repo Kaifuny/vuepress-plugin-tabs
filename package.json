@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
+    "ghpages": "gh-pages -d docs/.vuepress/dist",
     "release": "release-it"
   },
   "repository": {
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/superbiger/vuepress-plugin-tabs#readme",
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.0.0-alpha.0",
+    "gh-pages": "^2.0.1",
     "release-it": "^10.3.1",
     "vuepress": "^1.0.0-alpha.44"
   },

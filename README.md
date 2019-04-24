@@ -1,15 +1,15 @@
-# vuepress-plugin-tabs
+# [vuepress-plugin-tabs](https://superbiger.github.io/vuepress-plugin-tabs/)
 Vuepress plugin - markdown custom container to display content in tabs from [Element UI](https://github.com/ElemeFE/element)
 
 ## Install
 > This plugin requires VuePress >= 1.0.0, for now you can try it via yarn add vuepress@next -D 
 
-```
+```shell
 yarn add @sueprbiger/vuepress-plugin-tabs -D
 ```
 
 ## Usage
-```
+```javascript
 // .vuepress/config.js
 module.exports = {
   plugins: [
