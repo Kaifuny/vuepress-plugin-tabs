@@ -1,6 +1,6 @@
 module.exports = {
     base: '/vuepress-plugin-tabs/',
-    title: '@superbiger/vuepress-plugin-tabs',
+    title: 'vuepress-plugin-element-tabs',
     description: "markdown custom container to display content in tabs",
     themeConfig: {
         repo: "https://github.com/superbiger/vuepress-plugin-tabs",
