@@ -16,7 +16,6 @@ Vuepress plugin - markdown custom container to display content in tabs from [Ele
 yarn add vuepress-plugin-element-tabs -D
 ```
 
-## Usage
 ```javascript
 // .vuepress/config.js
 module.exports = {
@@ -25,6 +24,28 @@ module.exports = {
   ]
 }
 ```
+
+## Usage
+
+~~~ md
+:::: tabs
+
+::: tab title
+__markdown content__
+:::
+
+
+::: tab javascript
+``` javascript
+() => {
+  console.log('Javascript code example')
+}
+```
+:::
+
+::::
+
+~~~
 
 ## Docs
 > https://superbiger.github.io/vuepress-plugin-tabs
