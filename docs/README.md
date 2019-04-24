@@ -1,8 +1,10 @@
 ---
 sidebar: auto
 ---
+# element-tabs
+Vuepress plugin - markdown custom container to display content in tabs from [Element UI](https://github.com/ElemeFE/element)
 
-## 预览
+## Preview
 :::: tabs
 ::: tab demo1
 ```javascript
