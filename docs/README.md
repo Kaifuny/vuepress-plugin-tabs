@@ -3,7 +3,19 @@ sidebar: auto
 ---
 
 :::: tabs
-::: tab
+::: tab demo1
+```javascript
+function func() {
+  // TODO
+}
+```
+:::
+::: tab demo2
+```javascript
+function func() {
+  // TODO
+}
+```
 :::
 ::::
 
