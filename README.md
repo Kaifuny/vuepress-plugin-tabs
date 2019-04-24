@@ -1,4 +1,4 @@
-# [vuepress-plugin-tabs](https://superbiger.github.io/vuepress-plugin-tabs/)
+# [vuepress-plugin-element-tabs](https://superbiger.github.io/vuepress-plugin-tabs/)
 
 <a href="https://www.npmjs.com/package/vuepress-plugin-element-tabs"><img src="https://img.shields.io/npm/v/vuepress-plugin-element-tabs.svg" alt="Version"></a>
 <a href="https://www.npmjs.com/package/vuepress-plugin-element-tabs"><img src="https://img.shields.io/npm/l/vuepress-plugin-element-tabs.svg" alt="License"></a>
