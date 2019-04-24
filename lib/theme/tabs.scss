@@ -5,7 +5,7 @@
   @include e(header) {
     padding: 0;
     position: relative;
-    margin: 0 0 15px;
+    margin: 15px 0 15px;
   }
   @include e(active-bar) {
     position: absolute;
