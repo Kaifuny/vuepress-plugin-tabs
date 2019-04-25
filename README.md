@@ -47,5 +47,28 @@ __markdown content__
 
 ~~~
 
-## Docs
-> https://superbiger.github.io/vuepress-plugin-tabs
+## Documents
+> Accepted Value Like That
+~~~md
+:::: tabs type:board-card
+::: tab title lazy
+__markdown content__
+:::
+::::
+~~~
+
+### Tabs Attributes
+|Attribute|Description|Type|Accepted Values|Default|
+|:--|:--|:--|:--|:--|
+|type|type of Tab|String|card/border-card|border-card|
+|tab-position|position of tabs|String|top/right/bottom/left|top|
+|stretch|whether width of tab automatically fits its container|Boolean|-|false|
+
+
+### Tab Attributes
+|Attribute|Description|Type|Accepted Values|Default|
+|:--|:--|:--|:--|:--|
+|label|title of the tab|String|-|-|
+|lazy|whether Tab is lazily rendered|Boolean|-|false|
+
+
