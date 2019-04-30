@@ -2,6 +2,11 @@
 sidebar: auto
 ---
 # element-tabs
+
+<a href="https://www.npmjs.com/package/vuepress-plugin-element-tabs"><img src="https://img.shields.io/npm/v/vuepress-plugin-element-tabs.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/vuepress-plugin-element-tabs"><img src="https://img.shields.io/npm/l/vuepress-plugin-element-tabs.svg" alt="License"></a>
+<img src="https://img.shields.io/badge/thanks-element-brightgreen.svg"/>
+
 Vuepress plugin - markdown custom container to display content in tabs from [Element UI](https://github.com/ElemeFE/element)
 
 ## Preview
