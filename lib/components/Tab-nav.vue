@@ -1,5 +1,5 @@
 <script>
-  import TabBar from './tab-bar';
+  import TabBar from './Tab-bar.vue';
   import { addResizeListener, removeResizeListener } from '../utils/resize-event';
   function noop() {}
   const firstUpperCase = str => {
