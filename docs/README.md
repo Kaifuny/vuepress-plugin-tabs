@@ -40,8 +40,8 @@ function func() {
 ::::
 
 ## Install
-::: warning Note 
-This plugin requires VuePress >= 1.0.0, for now you can try it via yarn add vuepress@next -D 
+::: warning Note
+This plugin requires VuePress >= 1.0.0
 :::
 
 ```

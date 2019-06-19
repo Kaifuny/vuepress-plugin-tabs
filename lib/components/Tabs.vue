@@ -1,5 +1,5 @@
 <script>
-  import TabNav from './tab-nav';
+  import TabNav from './Tab-nav.vue';
   export default {
     name: 'ElTabs',
     components: {
@@ -160,7 +160,7 @@
         </div>
       );
     },
-  
+
     created() {
       if (!this.currentName) {
         this.setCurrentName('0');
