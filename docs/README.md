@@ -9,6 +9,8 @@ sidebar: auto
 
 Vuepress plugin - markdown custom container to display content in tabs from [Element UI](https://github.com/ElemeFE/element)
 
+> This Docs is warning show o(>_<)o , but don't warry! this package is well!!!!
+
 ## Preview
 
 ### Demo 1
