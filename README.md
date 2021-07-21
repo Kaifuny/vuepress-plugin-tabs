@@ -47,6 +47,25 @@ __markdown content__
 
 ~~~
 
+### With options
+If you have a lot of tabbed sections in your documentation you might want
+to see all of them switch together when one is changed.
+To enable this behavior, just set the `sync` option to `true`:
+
+```js
+module.exports = {
+  // Your remaining configuration ...
+  plugins: [
+    [
+      'vuepress-plugin-element-tabs',
+      {
+        sync: true,
+      },
+    ],
+  ],
+}
+```
+
 ## Documents
 > Accepted Value Like That
 ~~~md

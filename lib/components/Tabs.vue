@@ -7,7 +7,14 @@
     },
     props: {
       type: String,
-      activeName: String,
+      activeName: {
+        type: String,
+        default () {
+          if (typeof localStorage !== 'undefined') {
+            return localStorage.getItem('vuepress-plugin-element-tabs@activeId');
+          }
+        }
+      },
       closable: Boolean,
       addable: Boolean,
       value: {},
@@ -65,7 +72,15 @@
       handleTabClick(tab, tabName, event) {
         if (tab.disabled) return;
         this.setCurrentName(tabName);
+        if (Array.every([
+          this.$page.elementTabsOptions,
+          this.$page.elementTabsOptions.sync,
+          typeof localStorage !== 'undefined'
+        ])) {
+          localStorage.setItem('vuepress-plugin-element-tabs@activeId', tabName);
+        }
         this.$emit('tab-click', tab, event);
+        this.$root.$emit('tab-change', tabName, tab, event);
       },
       handleTabRemove(pane, ev) {
         if (pane.disabled) return;
@@ -162,6 +177,13 @@
     },
 
     created() {
+      if (this.$page.elementTabsOptions.sync) {
+        this.$root.$on('tab-change', (tabName, tab, event) => {
+          this.setCurrentName(tabName)
+        });
+      } else if (typeof localStorage !== 'undefined') {
+        localStorage.removeItem('vuepress-plugin-element-tabs@activeId')
+      }
       if (!this.currentName) {
         this.setCurrentName('0');
       }
