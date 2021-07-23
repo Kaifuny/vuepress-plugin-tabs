@@ -1,6 +1,9 @@
 const path = require('path')
 
 module.exports = (options, context) => ({
+  extendPageData($page) {
+    $page.elementTabsOptions = options
+  },
   enhanceAppFiles: [
     path.resolve(__dirname, './lib/client.js')
   ],
@@ -9,8 +12,8 @@ module.exports = (options, context) => ({
   },
   chainMarkdown (config) {
     config
-      .plugin('@superbiger/tabs')
-      .use(require('./lib/markdownItPlugin'), [options])
-      .end()
+    .plugin('@superbiger/tabs')
+    .use(require('./lib/markdownItPlugin'), [options])
+    .end()
   }
 })
