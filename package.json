@@ -29,7 +29,7 @@
     "vuepress": "^1.0.1"
   },
   "dependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "resize-observer-polyfill": "^1.5.1",
     "sass-loader": "^7.1.0"
   }
